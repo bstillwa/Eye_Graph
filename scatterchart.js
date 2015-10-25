@@ -73,8 +73,12 @@
             .attr("r", 0)
             .transition().duration(0)
             .delay(function(d, i) { return i * 5; })
-            .attr("r", 2)
+            .attr("r", 3)
             .transition().duration(0)
-            .delay(function(d, i) {return i * 5.07;})
+            .delay(function(d, i) {return i * 5.01;})
+            .attr("r", 1)
+            .attr("fill", "rgb(255,128,0)")
+            .transition().duration(0)
+            .delay(function(d, i) {return i * 5.1;})
             .attr("r", 0);
 });
