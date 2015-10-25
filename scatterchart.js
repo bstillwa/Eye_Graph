@@ -18,7 +18,7 @@
             height = 500 - margin.top - margin.bottom;
         
         var x = d3.scale.linear()
-            .domain([d3.min(coords, function(d) { return d[0]; }), 200/*d3.max(coords, function(d) { return d[0]; })*/])
+            .domain([d3.min(coords, function(d) { return d[0]; }), 160/*d3.max(coords, function(d) { return d[0]; })*/])
             .range( [ 0, width ] );
         
         var y = d3.scale.linear()
